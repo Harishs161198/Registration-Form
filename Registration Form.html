@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height:500px;
+            width:900px;
+            background-color:rgb(247, 12, 83);
+            border:1px solid;
+        display: flex;
+        align-items:center;
+        }
+        #child1{
+            height:398px;
+            width:280px;
+            border:1px solid;
+            margin-left: 110px;
+        }
+        #child2{
+            height:398px;
+            width:400px;
+            border:1px solid;
+            background-color: white;
+        }
+        input{
+            height: 25px;
+            width: 180px;
+            margin-left: 20px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        button{
+            height: 25px;
+            width: 95px;
+            background-color: green;
+            color: white;
+            margin-left: 20px;
+        }
+        #child1{
+            background-image:url(./frute.jpg);
+        }
+        select{
+            height:25px; 
+            width:150px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+    </style>
+</head>
+<body id="refrence">
+  <div class="parent">
+          <div id="child1"></div>
+          <div id="child2">
+<h2 style="margin-left:30px;">REGISTRATION INFO</h2>
+<input type="text" placeholder="Name"><br><br>
+<input type="Date" placeholder="BirthDate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <select type="text" name="Gender" id="">
+    <option value="">Gender</option>
+     <option value="">Male</option>
+    <option value="">Female</option>
+    <option value="">Other</option>
+</select><br><br>
+<input type="text" placeholder="Class"><br><br>
+<input type="text" placeholder="Registration code"><br><br>
+  <button type="Submit" value="Search">Search</button>       
+   </div>
+  </div>  
+</body>
+</html>
